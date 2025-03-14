@@ -1,0 +1,28 @@
+{
+  "name": "basketballapp",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,vue,css,scss,html}\""
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^6.1.0",
+    "bootstrap": "^5.3.3",
+    "tinymce": "^7.6.0",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@types/quill": "^2.0.14",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.11",
+    "vite-plugin-vue-devtools": "^7.5.4"
+  }
+}

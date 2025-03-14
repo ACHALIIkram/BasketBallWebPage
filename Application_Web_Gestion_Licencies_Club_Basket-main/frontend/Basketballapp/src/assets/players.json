@@ -1,0 +1,34 @@
+{
+  "players": [
+    {
+      "first_name": "Luka",
+      "last_name": "Doncic",
+      "team": "Dallas Mavericks",
+      "statistics": {
+        "points": 27.8,
+        "rebounds": 8.5,
+        "trophies": ["NBA All-Star 2023", "Rookie of the Year 2019"]
+      }
+    },
+    {
+      "first_name": "Giannis",
+      "last_name": "Antetokounmpo",
+      "team": "Milwaukee Bucks",
+      "statistics": {
+        "points": 29.9,
+        "rebounds": 11.6,
+        "trophies": ["MVP 2019", "NBA Champion 2021"]
+      }
+    },
+    {
+      "first_name": "LeBron",
+      "last_name": "James",
+      "team": "Dallas Mavericks",
+      "statistics": {
+        "points": 25.0,
+        "rebounds": 7.8,
+        "trophies": ["NBA Champion 2012", "4x NBA MVP"]
+      }
+    }
+  ]
+}

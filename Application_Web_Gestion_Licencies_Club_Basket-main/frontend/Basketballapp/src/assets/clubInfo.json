@@ -1,0 +1,180 @@
+{
+    "sessions":{
+        "lundi":[
+            {
+                "schedule":"17h30-18h45",
+                "team":"Poussins 2e année",
+                "place":"Gymnase Mimoun"
+            },
+            {
+                "schedule":"17h45-19h15",
+                "team":"Benjamines",
+                "place":"Jeu de Paume"
+            },
+            {
+                "schedule":"18h45-20h00",
+                "team":"Minimes Garçons",
+                "place":"Mimoun"
+            },
+            {
+                "schedule":"21h-22h30",
+                "team":"Seniors Garçons",
+                "place":"Bourneton"
+            }
+        ],
+        "mardi":[
+            {
+                "schedule":"17h45-19h00",
+                "team":"Minimes Filles",
+                "place":"Jeu de Paume"
+            },
+            {
+                "schedule":"19h15-20h30",
+                "team":"Cadettes",
+                "place":"Mimoun"
+            },
+            {
+                "schedule":"20h00-22h30",
+                "team":"Seniors Filles",
+                "place":"Jeu de Paume"
+            }
+        ],
+        "mercredi":[
+            {
+                "schedule":"15h30-17h",
+                "team":"Poussin 1er année",
+                "place":"Mimoun"
+            },
+            {
+                "schedule":"17h30-18h45",
+                "team":"Poussins 2e année",
+                "place":"Mimoun"
+            },
+            {
+                "schedule":"17h45-19h30",
+                "team":"Benjamins",
+                "place":"Jeu de Paume"
+            },
+            {
+                "schedule":"18h45-20h00",
+                "team":"Minimes Garçons",
+                "place":"Mimoun"
+            },
+            {
+                "schedule":"19h30-21h00",
+                "team":"Cadets",
+                "place":"Jeu de Paume"
+            }
+        ],
+        "jeudi":[
+            {
+                "schedule":"20h-22h30",
+                "team":"Séniors Garçons",
+                "place":"Jeu de Paume"
+            },
+            {
+                "schedule":"20h30-22h30",
+                "team":"Séniors Filles",
+                "place":"Bourneton"
+            }
+        ],
+        "vendredi":[
+            {
+                "schedule":"18h45-20h00",
+                "team":"Benjamines Garçons",
+                "place":"Mimoun"
+            },
+            {
+                "schedule":"18h-19h30",
+                "team":"Minimes Filles",
+                "place":"Jeu de Paume"
+            },
+            {
+                "schedule":"19h30-21h00",
+                "team":"Cadets",
+                "place":"Jeu de Paume"
+            },
+            {
+                "schedule":"20h30-22h30",
+                "team":"Cadettes",
+                "place":"Bourneton"
+            },
+            {
+                "schedule":"21h00-22h30",
+                "team":"Détente",
+                "place":"Jeu de Paume"
+            }
+        ],
+        "samedi":[
+        ],
+        "dimanche":[
+            {
+                "schedule":"17h45-19h00",
+                "team":"Minimes Filles",
+                "place":"Jeu de Paume"
+            }
+        ]
+
+    },
+    "gymnases": [
+        {
+        "name": "Gymnase Alain MIMOUN",
+        "address": "Avenue du Général de Gaulle",
+        "city": "78450 VILLEPREUX",
+        "site": "https://maps.app.goo.gl/GMYbXQcnyv4BBa4P9"
+        },
+        {
+        "name": "Gymnase Dorine Bourneton",
+        "address": "2 passage Anne Franck",
+        "city": "78340 Les Clayes-sous-Bois",
+        "site": "https://maps.app.goo.gl/eBiGLCkQWw8o78aB9"
+        },
+        {
+        "name": "Gymnase du Jeu de Paume",
+        "address": "3 Allée du Hameau de la Reine",
+        "city": "78450 VILLEPREUX",
+        "site": "https://maps.app.goo.gl/aRfFrU8R9fnqEtky9"
+        }
+    ],
+    "partners":[
+        {
+            "name":"Marie de Villepreux",
+            "site": "https://www.villepreux.fr/",
+            "logo": "/src/assets/logo_partners/LOGO-villepreux.png"
+        },
+        {
+            "name":"Marie des Clayes-sous-Bois",
+            "site": "https://www.lesclayessousbois.fr/",
+            "logo": "/src/assets/logo_partners/LOGO-Clayes-sous-Bois.png"
+        },
+        {
+            "name":"Polytech Paris Saclay",
+            "site": "https://www.polytech.universite-paris-saclay.fr/",
+            "logo": "/src/assets/logo_partners/LOGO_Polytech_Paris-Saclay.png"
+        }
+    ],
+    
+    "registration":{
+        "docs":[
+            "Remplir la fiche de renseignement (vos coordonnées seront transmises à l'entraineur)",
+            "Remplir les chartres",
+            "Remplir le formulaire santé"
+        ],
+        "fees":{
+            "200 €":["Séniors compétition"],
+            "180 €":["Minimes", "Benjamins", "Benjamines"],
+            "175 €":[ "Poussins", "Cadets", "Cadettes"],
+            "130 €":["Détente", "Loisir"]
+        }
+        
+    },
+    "contact":{
+        "email":"bureau.basket@email.com",
+        "office":"Gymnase Alain MIMOUN, Villepreux 78450",
+        "networks":{
+            "facebook":"https://www.facebook.com",
+            "instagram":"https://www.instagram.com/",
+            "twitter":"https://x.com/"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+.git
+.vscode
+.gitignore
+frontend/Basketballapp/node_modules
+backend/venv
+.env

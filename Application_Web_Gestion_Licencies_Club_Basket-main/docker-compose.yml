@@ -1,0 +1,30 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Basketballapp/Dockerfile.frontend
+    ports:
+      - "5173:5173"  # Map port 5173 on the host to the container
+    volumes:
+      - ./frontend/Basketballapp:/app
+      - /app/node_modules
+
+  backend:
+    environment:
+      - DB_HOST=sql7.freesqldatabase.com
+      - DB_USER=sql7746392
+      - DB_PASSWORD=vr6DgZGZxE
+      - DB_NAME=sql7746392
+      - DB_PORT=3306
+    build:
+      context: .
+      dockerfile: backend/Dockerfile.backend
+    ports:
+      - "8000:8000"  # Map port 8000 on the host to the container
+    volumes:
+      - ./backend/app:/app
+      - ./assets:/app/assets
+
+networks:
+  app_network:
+    driver: bridge  
